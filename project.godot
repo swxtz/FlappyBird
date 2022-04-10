@@ -13,15 +13,21 @@ _global_script_classes=[ {
 "class": "Bird",
 "language": "GDScript",
 "path": "res://scripts/bird.gd"
+}, {
+"base": "Node2D",
+"class": "Pipe",
+"language": "GDScript",
+"path": "res://scripts/pipe.gd"
 } ]
 _global_script_class_icons={
-"Bird": ""
+"Bird": "",
+"Pipe": ""
 }
 
 [application]
 
 config/name="Flappy Bird"
-run/main_scene="res://scenes/bird.tscn"
+run/main_scene="res://scenes/main.tscn"
 config/icon="res://icon.png"
 
 [display]
